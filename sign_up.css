@@ -1,0 +1,103 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: white;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-box {
+    border: 5px solid #19715a;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left-section {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.benefits-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.right-section {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.welcome-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome-line, .divider-line {
+    border: 1px solid #19715a;
+    margin: 10px 0;
+}
+
+.signup-box {
+    padding: 20px;
+    border: 2px solid #19715a;
+    border-radius: 10px;
+}
+
+#signup-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"],
+#signup-form input[type="date"],
+#signup-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #19715a;
+    border-radius: 5px;
+}
+
+#signup-form button[type="submit"] {
+    background-color: #19715a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#signup-form button[type="submit"]:hover {
+    background-color: #145044;
+}
+
+/* Other existing CSS styles */

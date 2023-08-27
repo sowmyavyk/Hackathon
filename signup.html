@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - Campus Connect</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sign_up.css">
 </head>
 <body>
-    <main class="signup-page">
-        <div class="signup-box">
-            <h2>Sign Up</h2>
-            <form id="signup-form">
-                <label for="name">Name:</label>
+    <div class="page-box">
+        <h1 class="main-heading">CAMPUS CONNECT</h1>
+        <div class="signup-page">
+            <div class="left-section">
+                <h2 class="benefits-heading">Why Campus Connect⁇</h2>
+                <ul class="benefits-list">
+                    <li>Buy and sell items</li>
+                    <li>Collaborate with peers</li>
+                    <li>Hire and get hired</li>
+                </ul>
+            </div>
+            <div class="right-section">
+                <h2 class="welcome-title">Welcome to Campus Connect!</h2>
+                <hr class="welcome-line">
+                <div class="signup-box">
+                    <form id="signup-form">
+                        <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br>
                 
                 <label for="dob">Date of Birth:</label>
@@ -37,13 +49,14 @@
                 <input type="text" id="register-number" name="register-number" required><br>
                 
                 <label for="college-id-photo">College ID Photo:</label>
-                <input type="file" id="college-id-photo" name="college-id-photo" accept="image/*" required><br>
-                
-                <button type="submit">Register</button>
-            </form>
+                <input type="file" id="college-id-photo" name="college-id-photo" accept="image/*" required><br><br>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+                <hr class="divider-line">
+            </div>
         </div>
-    </main>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
-
