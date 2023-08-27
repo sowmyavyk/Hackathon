@@ -1,0 +1,478 @@
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+/*zuppp*/
+/* ... Your previous CSS code ... */
+
+/* Set background color and text color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #19715a; /* Change to green */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ... Rest of your CSS code ... */
+
+/* Additional styles for rent.html */
+/* ... Your previous CSS for rent.html ... */
+
+/* Additional styles for buy.html */
+/* ... Your previous CSS for buy.html ... */
+
+/* Additional styles for item boxes (green with code 19715a) */
+.item-box {
+    background-color: #19715a; /* Green background color */
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.item-box:hover {
+    background-color: #166044; /* Darker green on hover */
+    transform: translateY(-2px);
+}
+
+/* General white background */
+.white-background {
+    background-color: #fff;
+}
+
+/* ... Rest of your CSS code ... */
+
+/* Main content styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Top section styles */
+.top-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.section-link {
+    border: 1px solid #19715a;
+    color: #19715a;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.section-link:hover {
+    transform: translateY(-2px);
+}
+
+/* Logo styles */
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Introduction section styles */
+.intro-section {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.intro-section h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
+
+/* Additional section styles */
+.section-link {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* ... Rest of the CSS code ... */
+/* ... Your existing CSS ... */
+
+/* ... Your existing CSS ... */
+
+/* Additional styles for rent.html */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.product-card {
+    width: calc(33.33% - 1rem);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-details h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 0.5rem;
+}
+
+.rent-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rent-button:hover {
+    background-color: #0056b3;
+}
+/* ... Your existing CSS ... */
+
+/* Additional styles for buy.html */
+.filter-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+#price-filter {
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+#item-search {
+    padding: 0.5rem;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.product-card {
+    width: calc(33.33% - 1rem);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.product-details h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 0.5rem;
+}
+
+.seller {
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+/* ... Your previous CSS code ... */
+
+/* Additional styles for rent.html */
+/* ... Your previous CSS for rent.html ... */
+
+/* Additional styles for buy.html */
+/* ... Your previous CSS for buy.html ... */
+
+/* Additional styles for item boxes (green with code 19715a) */
+.item-box {
+    background-color: #19715a;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px; /* Adjust width as needed */
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.item-box:hover {
+    background-color: #166044;
+    transform: translateY(-2px);
+}
+
+/* General white background */
+.white-background {
+    background-color: #fff;
+}
+
+/* ... Rest of your CSS code ... */
+/* ... Your previous CSS code ... */
+
+/* Logo styles */
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.logo img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Top navigation styles */
+.section-nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.section-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.section-nav li {
+    margin-left: 10px;
+}
+
+/* Section link styles */
+.section-nav a {
+    background-color: #19715a; /* Green color */
+    color: #fff;
+    border-radius: 100%; /* Make it round */
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.section-nav a:hover {
+    background-color: #166044; /* Darker green on hover */
+    transform: translateY(-3px);
+}
+
+/* ... Rest of your CSS code ... */
+/* ... Your previous CSS code ... */
+
+/* Login page styles */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+/* Login/register box styles */
+.login-register-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #19715a; /* Green color */
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Login and register button styles */
+.login-button, .register-button {
+    background-color: #19715a; /* Green color */
+    color: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+}
+
+.login-button a, .register-button a {
+    text-decoration: none;
+    color: #fff;
+}
+/* ... Your previous CSS code ... */
+
+/* Sign-up page styles */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Signup box styles */
+.signup-box {
+    border: 2px solid #19715a; /* Green color */
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Signup form styles */
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="password"], select, input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #19715a; /* Green color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #166044; /* Darker green on hover */
+}
+
+/* ... Rest of your CSS code ... */
+

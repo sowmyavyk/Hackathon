@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Campus Connect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="signup-page">
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br>
+                
+                <label for="college">College:</label>
+                <select id="college" name="college" required>
+                    <option value="VIIT">VIIT</option>
+                    <option value="VIPT">VIPT</option>
+                    <option value="VIEW">VIEW</option>
+                </select><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="password">Enter Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required><br>
+                
+                <label for="register-number">Register Number:</label>
+                <input type="text" id="register-number" name="register-number" required><br>
+                
+                <label for="college-id-photo">College ID Photo:</label>
+                <input type="file" id="college-id-photo" name="college-id-photo" accept="image/*" required><br>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

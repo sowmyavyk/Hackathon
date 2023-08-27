@@ -1,0 +1,344 @@
+.page-box {
+    border: 10px solid #19715a;
+    padding: 5PX;
+    margin: 20px auto; 
+    max-width: 800px;
+    background-color:#19715a;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    flex: 2;
+    background-color: white;
+    padding: 2rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-title {
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+.welcome-line {
+    border: none;
+    border-top: 10px dashed #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: #19715a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bottom-line {
+    border: none;
+    border-top: 10px dashed #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.signup-options p {
+    color: #333;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.right-section {
+    flex: 1;
+    background: linear-gradient(to bottom, #00FF00 66.66%, #19715a 66.66%);
+    position: relative;
+}
+
+.green-bg {
+    height: 66.66%;
+    background-color: #00FF00;
+}
+
+.colorful-pattern {
+    height: 33.33%;
+    background: linear-gradient(to right, yellow, blue, green);
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-button,
+.register-button {
+    background-color: #19715a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.colorful-pattern {
+    height: 33.33%;
+    background: linear-gradient(to right, yellow, blue, green);
+}
+
+.profile-picture {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 300; 
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #19715a;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left-section {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.welcome-line {
+    width: 50%;
+    border: none;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black; 
+}
+
+.input-box input {
+    width: calc(100% - 10px);;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #19715a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #135545;
+}
+
+.divider-line {
+    width: 100%;
+    border: none;
+    border-top: 2px dashed #333;
+    margin: 20px 0;
+}
+
+.signup-options {
+    text-align: center;
+    color: black;
+}
+/*.right-section {
+    flex: 1;
+    background-color: #19715a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper-right-section {
+    height: 66.66%;
+    background-color: #19715a;
+}
+
+.green-bg {
+    background-color: green;
+    height: 100%;
+}
+
+.lower-right-section {
+    height: 33.33%;
+    background: linear-gradient(to bottom, yellow, blue, green);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.colorful-pattern {
+    width: 33.33%;
+    height: 100%;
+}
+
+.profile-picture {
+    width: 66.66%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+}
+ Existing styles */
+
+.right-section {
+    flex: 1;
+    background-color: #19715a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper-right-section {
+    height: 66.66%;
+    background-color: #19715a;
+}
+
+.green-bg {
+    background-color: green;
+    height: 100%;
+}
+
+.lower-right-section {
+    height: 33.33%;
+    background: linear-gradient(to bottom, yellow, blue, green);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    max-width: 100%;
+    height: auto;
+}
+/* Existing styles */
+
+.email-password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black; /* Text color */
+    margin-bottom: 20px; /* Add some spacing */
+}
+
+.email-password input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black; /* Underline style */
+    background-color: transparent;
+    color: black;
+}
+
+.email-password input::placeholder {
+    color: black;
+}
+

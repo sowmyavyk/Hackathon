@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Items - Student Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Buy Items</h1>
+    </header>
+    <main>
+        <section class="filter-section">
+            <label for="price-filter">Filter by Price:</label>
+            <select id="price-filter">
+                <option value="all">All</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+        </section>
+        <section class="search-section">
+            <input type="text" id="item-search" placeholder="Search for items">
+            <button id="search-button">Search</button>
+        </section>
+        <section class="product-list">
+            <!-- Product cards will be dynamically added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Marketplace</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
